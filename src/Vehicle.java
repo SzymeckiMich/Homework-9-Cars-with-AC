@@ -18,7 +18,7 @@ public class Vehicle {
     }
 
     public double range() {
-        return tankCapacity / getAverageFuelOn100();
+        return 100*(tankCapacity / totalConsumption());
     }
 
     public void setAC(boolean AC) {

@@ -10,6 +10,7 @@ public class Test {
         for (int i = 0; i < vehicles.length; i++) {
             vehicles[i].setAC(true);
         }
+
         for (Vehicle vehicle : vehicles) {
             vehicle.showInfo();
         }

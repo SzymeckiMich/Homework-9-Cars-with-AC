@@ -18,11 +18,6 @@ public class Truck extends Car {
     }
 
     @Override
-    public double range() {
-        return (getTankCapacity() / totalConsumption());
-    }
-
-    @Override
     public void showInfo() {
         super.showInfo();
         System.out.println("Weight of load: " + loadWeight + "km");

@@ -18,11 +18,6 @@ public class Car extends Vehicle {
     }
 
     @Override
-    public double range() {
-        return (getTankCapacity() / totalConsumption());
-    }
-
-    @Override
     public void showInfo() {
         super.showInfo();
         System.out.println("Is air condition ON: " + AC);
